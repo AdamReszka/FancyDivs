@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.header {
+  width: 100%;
+  height: 800px;
+  background-color: #1c3149;
+}
+.test-cont {
+  width: 50%;
+  // height: 100px;
+  box-sizing: border-box;
+}
+.shape-reso {
+  border-top-width: 50px;
+  border-right-width: 25vw;
+  border-bottom-width: 50px;
+  border-style: solid;
+  margin-top: 0px;
+  position: relative;
+}
+.background-trangle-one{
+  border-left-width: 25vw;
+  border-top-color: #1c3149;
+  border-right-color: #1c3149;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  z-index: 12;
+
+}
+.background-trangle-two{
+  border-left-width: 24vw;
+  border-top-color: #1c3149;
+  border-right-color: transparent;
+  border-left-color: #1c3149;
+  border-bottom-color: transparent;
+  z-index: 12;
+}
+.background-trangle-three{
+  border-left-width: 25vw;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: #1c3149;
+  border-bottom-color: #1c3149;
+  z-index: 12;
+}
+.background-trangle-four{
+  border-left-width: 24vw;
+  border-top-color: transparent;
+  border-right-color: #1c3149;
+  border-left-color: transparent;
+  border-bottom-color: #1c3149;
+  z-index: 12;
+}
+.arrow-row {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.arrow-top {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.arrow-bg {
+  background-image: url('week.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.arrow-border-top .background-trangle-one {
+  border-top-color: rgba(14, 110, 171, 0.5);
+  border-right-color: rgba(14, 110, 171, 0.5);
+}
+.arrow-border-top .background-trangle-two {
+  border-top-color: rgba(14, 110, 171, 0.5);
+  border-left-color: rgba(14, 110, 171, 0.5);
+}
+.arrow-border-bottom .background-trangle-three{
+  border-left-color: rgba(14, 110, 171, 0.5);
+  border-bottom-color: rgba(14, 110, 171, 0.5);
+}
+.arrow-border-bottom .background-trangle-four{
+  border-right-color: rgba(14, 110, 171, 0.5);
+  border-bottom-color: rgba(14, 110, 171, 0.5);
+}
+.arrow-border-position-bottom {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+.arrow-border-position-top {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.arrow-trangle-margin {
+  width: 100%;
+  height: 24px;
+  background-color: rgba(14, 110, 171, 0.5);
+}
+.content-row {
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 800px;
+  background-color: #1c3149;
+}
